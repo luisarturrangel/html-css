@@ -24,8 +24,20 @@ a:hover {
   color: gray;
 }
 
-.parallax {
+.container {
+  position: relative;
+}
+
+#pl1 {
   background-image: url("imagens/background001.jpg");
+}
+
+#pl2 {
+  background-image: url("imagens/background002.jpg");
+}
+
+#pl1,
+#pl2 {
   min-height: 250px;
   background-attachment: fixed;
   background-position: center center;
@@ -35,11 +47,8 @@ a:hover {
   margin-left: -10px;
 }
 
-.container {
-  position: relative;
-}
-
-.parallax > p {
+#pl1 > p,
+#pl2 > p {
   width: 200px;
   padding: 10px;
   background-color: #00000060;
