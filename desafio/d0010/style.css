@@ -145,7 +145,7 @@ header > h1 {
 
 }
 
-header p {
+header > p {
   max-width: 500px;
   margin: auto;
   padding-right: 10px;
@@ -153,7 +153,7 @@ header p {
   color: white;
   font-family: var(--fonte-padrao);
   font-size: 1.2em;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
 }
 
